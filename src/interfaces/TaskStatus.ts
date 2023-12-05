@@ -1,5 +1,7 @@
+import { Status } from "@/constants";
+
 export interface TaskStatus {
-  status: string;
+  status: Status;
   label: string;
   colorStatus: string;
 }

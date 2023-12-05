@@ -1,7 +1,8 @@
+import { Outlet } from "react-router-dom";
+
 import { Box, Container, Flex } from "@chakra-ui/react";
 
 import { Header, SideBar } from "@/components";
-import { Outlet } from "react-router-dom";
 
 export const PrimaryLayout = () => {
   return (

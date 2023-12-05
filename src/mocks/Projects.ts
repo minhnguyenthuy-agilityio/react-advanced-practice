@@ -1,4 +1,5 @@
 import { Project } from "@/interfaces";
+
 export const PROJECTS: Project[] = [
   {
     name: "Mobile App",

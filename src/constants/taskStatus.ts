@@ -1,17 +1,17 @@
 import { TaskStatus } from "@/interfaces";
 
-export const STATUS = {
-  TODO: "todo",
-  ONPROGRESS: "onProgress",
-  DONE: "done",
-};
+export enum Status {
+  Todo,
+  Onprogress,
+  Done,
+}
 
 export const TASK_STATUS: TaskStatus[] = [
-  { status: STATUS.TODO, label: "to do", colorStatus: "secondary.300" },
+  { status: Status.Todo, label: "To Do", colorStatus: "secondary.300" },
   {
-    status: STATUS.ONPROGRESS,
-    label: "on progress",
+    status: Status.Onprogress,
+    label: "On Progress",
     colorStatus: "tertiary.300",
   },
-  { status: STATUS.DONE, label: "done", colorStatus: "secondary.300" },
+  { status: Status.Done, label: "Done", colorStatus: "success.100" },
 ];

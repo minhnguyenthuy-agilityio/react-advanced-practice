@@ -12,7 +12,7 @@ exports[`SearchBox component matchs snapshoot 1`] = `
         data-group="true"
       >
         <div
-          class="chakra-input__left-element css-y75eva"
+          class="chakra-input__left-element css-14u2gx0"
         >
           <svg
             class="chakra-icon css-1uwb1nc"
@@ -106,7 +106,7 @@ exports[`SearchBox component matchs snapshoot 1`] = `
       data-group="true"
     >
       <div
-        class="chakra-input__left-element css-y75eva"
+        class="chakra-input__left-element css-14u2gx0"
       >
         <svg
           class="chakra-icon css-1uwb1nc"

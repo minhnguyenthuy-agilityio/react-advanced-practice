@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TaskCardItem component matchs snapshoot 1`] = `
+exports[`TaskCard component matchs snapshoot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body
@@ -8,22 +8,22 @@ exports[`TaskCardItem component matchs snapshoot 1`] = `
   >
     <div>
       <article
-        class="css-143dths"
+        class="css-rrhuv3"
       >
         <div
           class="css-gg4vpm"
         >
           <span
-            class="chakra-badge css-1pkfera"
+            class="chakra-badge css-1uudyz1"
           >
-            completed
+            High
           </span>
           <button
-            aria-controls="menu-list-:r6:"
+            aria-controls="menu-list-:r9:"
             aria-expanded="false"
             aria-haspopup="menu"
             class="chakra-button chakra-menu__menu-button css-7hwhqr"
-            id="menu-button-:r6:"
+            id="menu-button-:r9:"
             type="button"
           >
             <span
@@ -33,16 +33,33 @@ exports[`TaskCardItem component matchs snapshoot 1`] = `
               class="chakra-button__icon css-1hzyiq5"
             >
               <svg
-                fill="none"
-                height="4"
-                viewBox="0 0 15 4"
-                width="15"
-                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                class="chakra-icon css-1uwb1nc"
+                focusable="false"
+                viewBox="0 0 24 24"
               >
-                <path
-                  d="M2.44318 3.16477C2.03409 3.16477 1.68371 3.02083 1.39205 2.73295C1.10417 2.44508 0.962121 2.09659 0.965909 1.6875C0.962121 1.28598 1.10417 0.943182 1.39205 0.659091C1.68371 0.371212 2.03409 0.227273 2.44318 0.227273C2.82955 0.227273 3.17045 0.371212 3.46591 0.659091C3.76515 0.943182 3.91667 1.28598 3.92045 1.6875C3.91667 1.96023 3.8447 2.20833 3.70455 2.43182C3.56818 2.6553 3.38826 2.83333 3.16477 2.96591C2.94508 3.09848 2.70455 3.16477 2.44318 3.16477ZM7.78131 3.16477C7.37222 3.16477 7.02184 3.02083 6.73017 2.73295C6.44229 2.44508 6.30025 2.09659 6.30403 1.6875C6.30025 1.28598 6.44229 0.943182 6.73017 0.659091C7.02184 0.371212 7.37222 0.227273 7.78131 0.227273C8.16767 0.227273 8.50858 0.371212 8.80403 0.659091C9.10328 0.943182 9.25479 1.28598 9.25858 1.6875C9.25479 1.96023 9.18282 2.20833 9.04267 2.43182C8.90631 2.6553 8.72638 2.83333 8.5029 2.96591C8.2832 3.09848 8.04267 3.16477 7.78131 3.16477ZM13.1194 3.16477C12.7103 3.16477 12.36 3.02083 12.0683 2.73295C11.7804 2.44508 11.6384 2.09659 11.6422 1.6875C11.6384 1.28598 11.7804 0.943182 12.0683 0.659091C12.36 0.371212 12.7103 0.227273 13.1194 0.227273C13.5058 0.227273 13.8467 0.371212 14.1422 0.659091C14.4414 0.943182 14.5929 1.28598 14.5967 1.6875C14.5929 1.96023 14.5209 2.20833 14.3808 2.43182C14.2444 2.6553 14.0645 2.83333 13.841 2.96591C13.6213 3.09848 13.3808 3.16477 13.1194 3.16477Z"
-                  fill="#0D062D"
-                />
+                <g
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                    fill="none"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                    fill="currentColor"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    fill="none"
+                    r="11.25"
+                    stroke-miterlimit="10"
+                  />
+                </g>
               </svg>
             </span>
           </button>
@@ -53,44 +70,367 @@ exports[`TaskCardItem component matchs snapshoot 1`] = `
             <div
               aria-orientation="vertical"
               class="chakra-menu__menu-list css-1kfu8nn"
-              id="menu-list-:r6:"
+              id="menu-list-:r9:"
               role="menu"
               style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
               tabindex="-1"
             >
               <button
-                class="chakra-menu__menuitem css-1kswcdd"
+                class="chakra-menu__menuitem css-10veg7l"
                 data-index="0"
-                id="menu-list-:r6:-menuitem-:r7:"
+                id="menu-list-:r9:-menuitem-:ra:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
               >
-                to do
+                To Do
               </button>
               <button
-                class="chakra-menu__menuitem css-1kswcdd"
+                class="chakra-menu__menuitem css-10veg7l"
                 data-index="1"
-                id="menu-list-:r6:-menuitem-:r8:"
+                id="menu-list-:r9:-menuitem-:rb:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
               >
-                on progress
+                On Progress
               </button>
               <button
-                class="chakra-menu__menuitem css-1kswcdd"
+                class="chakra-menu__menuitem css-10veg7l"
                 data-index="2"
-                id="menu-list-:r6:-menuitem-:r9:"
+                id="menu-list-:r9:-menuitem-:rc:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
               >
-                done
+                Done
               </button>
             </div>
           </div>
         </div>
+        <div
+          class="css-0"
+          data-testid="task-01"
+        >
+          <h2
+            class="chakra-heading css-11ngthj"
+          >
+            Sample Task
+          </h2>
+          <img
+            alt="background task"
+            class="chakra-image css-1rrnj2v"
+            src="https://res.cloudinary.com/de2x8dwvf/image/upload/v1695227531/test_y38vvw.webp"
+          />
+          <p
+            class="chakra-text css-12d129f"
+          >
+            Sample description for the task
+          </p>
+          <div
+            class="css-1k51jcu"
+          >
+            <div
+              class="chakra-avatar__group css-1rs5v3u"
+              role="group"
+            >
+              <span
+                class="chakra-avatar css-106sop3"
+              >
+                <svg
+                  aria-label=" avatar"
+                  class="chakra-avatar__svg css-16ite8i"
+                  role="img"
+                  viewBox="0 0 128 128"
+                >
+                  <path
+                    d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="chakra-avatar css-rawe7k"
+              >
+                <svg
+                  aria-label=" avatar"
+                  class="chakra-avatar__svg css-16ite8i"
+                  role="img"
+                  viewBox="0 0 128 128"
+                >
+                  <path
+                    d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="chakra-avatar css-rawe7k"
+              >
+                <svg
+                  aria-label=" avatar"
+                  class="chakra-avatar__svg css-16ite8i"
+                  role="img"
+                  viewBox="0 0 128 128"
+                >
+                  <path
+                    d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="css-1vakbk4"
+            >
+              <div
+                class="css-k008qs"
+              >
+                <svg
+                  class="chakra-icon css-1uwb1nc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11.25"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                </svg>
+                <p
+                  class="chakra-text css-1qt1967"
+                >
+                  20 comments
+                </p>
+              </div>
+              <div
+                class="css-k008qs"
+              >
+                <svg
+                  class="chakra-icon css-1uwb1nc"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11.25"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                </svg>
+                <p
+                  class="chakra-text css-1qt1967"
+                >
+                  15 files
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <span
+        hidden=""
+        id="__chakra_env"
+      />
+    </div>
+    <div
+      class="chakra-portal"
+    >
+      <div
+        aria-label="Notifications-top"
+        aria-live="polite"
+        id="chakra-toast-manager-top"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
+      />
+      <div
+        aria-label="Notifications-top-left"
+        aria-live="polite"
+        id="chakra-toast-manager-top-left"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <div
+        aria-label="Notifications-top-right"
+        aria-live="polite"
+        id="chakra-toast-manager-top-right"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <div
+        aria-label="Notifications-bottom-left"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-left"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <div
+        aria-label="Notifications-bottom"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
+      />
+      <div
+        aria-label="Notifications-bottom-right"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-right"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <article
+      class="css-rrhuv3"
+    >
+      <div
+        class="css-gg4vpm"
+      >
+        <span
+          class="chakra-badge css-1uudyz1"
+        >
+          High
+        </span>
+        <button
+          aria-controls="menu-list-:r9:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          class="chakra-button chakra-menu__menu-button css-7hwhqr"
+          id="menu-button-:r9:"
+          type="button"
+        >
+          <span
+            class="css-xl71ch"
+          />
+          <span
+            class="chakra-button__icon css-1hzyiq5"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-1uwb1nc"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  fill="none"
+                  r="11.25"
+                  stroke-miterlimit="10"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-r6z5ec"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-1kfu8nn"
+            id="menu-list-:r9:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              class="chakra-menu__menuitem css-10veg7l"
+              data-index="0"
+              id="menu-list-:r9:-menuitem-:ra:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              To Do
+            </button>
+            <button
+              class="chakra-menu__menuitem css-10veg7l"
+              data-index="1"
+              id="menu-list-:r9:-menuitem-:rb:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              On Progress
+            </button>
+            <button
+              class="chakra-menu__menuitem css-10veg7l"
+              data-index="2"
+              id="menu-list-:r9:-menuitem-:rc:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Done
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-0"
+        data-testid="task-01"
+      >
         <h2
           class="chakra-heading css-11ngthj"
         >
@@ -248,302 +588,6 @@ exports[`TaskCardItem component matchs snapshoot 1`] = `
                 15 files
               </p>
             </div>
-          </div>
-        </div>
-      </article>
-      <span
-        hidden=""
-        id="__chakra_env"
-      />
-    </div>
-    <div
-      class="chakra-portal"
-    >
-      <div
-        aria-label="Notifications-top"
-        aria-live="polite"
-        id="chakra-toast-manager-top"
-        role="region"
-        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
-      />
-      <div
-        aria-label="Notifications-top-left"
-        aria-live="polite"
-        id="chakra-toast-manager-top-left"
-        role="region"
-        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
-      />
-      <div
-        aria-label="Notifications-top-right"
-        aria-live="polite"
-        id="chakra-toast-manager-top-right"
-        role="region"
-        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
-      />
-      <div
-        aria-label="Notifications-bottom-left"
-        aria-live="polite"
-        id="chakra-toast-manager-bottom-left"
-        role="region"
-        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
-      />
-      <div
-        aria-label="Notifications-bottom"
-        aria-live="polite"
-        id="chakra-toast-manager-bottom"
-        role="region"
-        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
-      />
-      <div
-        aria-label="Notifications-bottom-right"
-        aria-live="polite"
-        id="chakra-toast-manager-bottom-right"
-        role="region"
-        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
-      />
-    </div>
-  </body>,
-  "container": <div>
-    <article
-      class="css-143dths"
-    >
-      <div
-        class="css-gg4vpm"
-      >
-        <span
-          class="chakra-badge css-1pkfera"
-        >
-          completed
-        </span>
-        <button
-          aria-controls="menu-list-:r6:"
-          aria-expanded="false"
-          aria-haspopup="menu"
-          class="chakra-button chakra-menu__menu-button css-7hwhqr"
-          id="menu-button-:r6:"
-          type="button"
-        >
-          <span
-            class="css-xl71ch"
-          />
-          <span
-            class="chakra-button__icon css-1hzyiq5"
-          >
-            <svg
-              fill="none"
-              height="4"
-              viewBox="0 0 15 4"
-              width="15"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.44318 3.16477C2.03409 3.16477 1.68371 3.02083 1.39205 2.73295C1.10417 2.44508 0.962121 2.09659 0.965909 1.6875C0.962121 1.28598 1.10417 0.943182 1.39205 0.659091C1.68371 0.371212 2.03409 0.227273 2.44318 0.227273C2.82955 0.227273 3.17045 0.371212 3.46591 0.659091C3.76515 0.943182 3.91667 1.28598 3.92045 1.6875C3.91667 1.96023 3.8447 2.20833 3.70455 2.43182C3.56818 2.6553 3.38826 2.83333 3.16477 2.96591C2.94508 3.09848 2.70455 3.16477 2.44318 3.16477ZM7.78131 3.16477C7.37222 3.16477 7.02184 3.02083 6.73017 2.73295C6.44229 2.44508 6.30025 2.09659 6.30403 1.6875C6.30025 1.28598 6.44229 0.943182 6.73017 0.659091C7.02184 0.371212 7.37222 0.227273 7.78131 0.227273C8.16767 0.227273 8.50858 0.371212 8.80403 0.659091C9.10328 0.943182 9.25479 1.28598 9.25858 1.6875C9.25479 1.96023 9.18282 2.20833 9.04267 2.43182C8.90631 2.6553 8.72638 2.83333 8.5029 2.96591C8.2832 3.09848 8.04267 3.16477 7.78131 3.16477ZM13.1194 3.16477C12.7103 3.16477 12.36 3.02083 12.0683 2.73295C11.7804 2.44508 11.6384 2.09659 11.6422 1.6875C11.6384 1.28598 11.7804 0.943182 12.0683 0.659091C12.36 0.371212 12.7103 0.227273 13.1194 0.227273C13.5058 0.227273 13.8467 0.371212 14.1422 0.659091C14.4414 0.943182 14.5929 1.28598 14.5967 1.6875C14.5929 1.96023 14.5209 2.20833 14.3808 2.43182C14.2444 2.6553 14.0645 2.83333 13.841 2.96591C13.6213 3.09848 13.3808 3.16477 13.1194 3.16477Z"
-                fill="#0D062D"
-              />
-            </svg>
-          </span>
-        </button>
-        <div
-          class="css-r6z5ec"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <div
-            aria-orientation="vertical"
-            class="chakra-menu__menu-list css-1kfu8nn"
-            id="menu-list-:r6:"
-            role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
-            tabindex="-1"
-          >
-            <button
-              class="chakra-menu__menuitem css-1kswcdd"
-              data-index="0"
-              id="menu-list-:r6:-menuitem-:r7:"
-              role="menuitem"
-              tabindex="-1"
-              type="button"
-            >
-              to do
-            </button>
-            <button
-              class="chakra-menu__menuitem css-1kswcdd"
-              data-index="1"
-              id="menu-list-:r6:-menuitem-:r8:"
-              role="menuitem"
-              tabindex="-1"
-              type="button"
-            >
-              on progress
-            </button>
-            <button
-              class="chakra-menu__menuitem css-1kswcdd"
-              data-index="2"
-              id="menu-list-:r6:-menuitem-:r9:"
-              role="menuitem"
-              tabindex="-1"
-              type="button"
-            >
-              done
-            </button>
-          </div>
-        </div>
-      </div>
-      <h2
-        class="chakra-heading css-11ngthj"
-      >
-        Sample Task
-      </h2>
-      <img
-        alt="background task"
-        class="chakra-image css-1rrnj2v"
-        src="https://res.cloudinary.com/de2x8dwvf/image/upload/v1695227531/test_y38vvw.webp"
-      />
-      <p
-        class="chakra-text css-12d129f"
-      >
-        Sample description for the task
-      </p>
-      <div
-        class="css-1k51jcu"
-      >
-        <div
-          class="chakra-avatar__group css-1rs5v3u"
-          role="group"
-        >
-          <span
-            class="chakra-avatar css-106sop3"
-          >
-            <svg
-              aria-label=" avatar"
-              class="chakra-avatar__svg css-16ite8i"
-              role="img"
-              viewBox="0 0 128 128"
-            >
-              <path
-                d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
-                fill="currentColor"
-              />
-              <path
-                d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
-          <span
-            class="chakra-avatar css-rawe7k"
-          >
-            <svg
-              aria-label=" avatar"
-              class="chakra-avatar__svg css-16ite8i"
-              role="img"
-              viewBox="0 0 128 128"
-            >
-              <path
-                d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
-                fill="currentColor"
-              />
-              <path
-                d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
-          <span
-            class="chakra-avatar css-rawe7k"
-          >
-            <svg
-              aria-label=" avatar"
-              class="chakra-avatar__svg css-16ite8i"
-              role="img"
-              viewBox="0 0 128 128"
-            >
-              <path
-                d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
-                fill="currentColor"
-              />
-              <path
-                d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
-        </div>
-        <div
-          class="css-1vakbk4"
-        >
-          <div
-            class="css-k008qs"
-          >
-            <svg
-              class="chakra-icon css-1uwb1nc"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <g
-                stroke="currentColor"
-                stroke-width="1.5"
-              >
-                <path
-                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
-                  fill="none"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
-                  fill="currentColor"
-                  stroke-linecap="round"
-                />
-                <circle
-                  cx="12"
-                  cy="12"
-                  fill="none"
-                  r="11.25"
-                  stroke-miterlimit="10"
-                />
-              </g>
-            </svg>
-            <p
-              class="chakra-text css-1qt1967"
-            >
-              20 comments
-            </p>
-          </div>
-          <div
-            class="css-k008qs"
-          >
-            <svg
-              class="chakra-icon css-1uwb1nc"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <g
-                stroke="currentColor"
-                stroke-width="1.5"
-              >
-                <path
-                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
-                  fill="none"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
-                  fill="currentColor"
-                  stroke-linecap="round"
-                />
-                <circle
-                  cx="12"
-                  cy="12"
-                  fill="none"
-                  r="11.25"
-                  stroke-miterlimit="10"
-                />
-              </g>
-            </svg>
-            <p
-              class="chakra-text css-1qt1967"
-            >
-              15 files
-            </p>
           </div>
         </div>
       </div>

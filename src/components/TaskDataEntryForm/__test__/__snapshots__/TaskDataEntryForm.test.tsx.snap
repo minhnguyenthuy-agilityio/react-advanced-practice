@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskDataEntryForm component matchs snapshoot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body
+    class="chakra-ui-light"
+  >
+    <div
+      aria-hidden="true"
+      data-aria-hidden="true"
+    >
+      <span
+        hidden=""
+        id="__chakra_env"
+      />
+    </div>
+    <div
+      class="chakra-portal"
+    >
+      <div
+        aria-hidden="true"
+        class="chakra-modal__overlay css-hdd9l7"
+        data-aria-hidden="true"
+        style="opacity: 0;"
+      />
+      <div
+        aria-hidden="true"
+        data-aria-hidden="true"
+        data-focus-guard="true"
+        style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+        tabindex="0"
+      />
+      <div
+        data-focus-lock-disabled="false"
+      >
+        <div
+          class="chakra-modal__content-container css-1u2cvaz"
+          tabindex="-1"
+        >
+          <div
+            animate="enter"
+            aria-labelledby="chakra-modal--header-:r0:"
+            aria-modal="true"
+            class="chakra-modal__content css-dpak00"
+            custom="[object Object]"
+            exit="exit"
+            id="chakra-modal-:r0:"
+            initial="exit"
+            role="dialog"
+            tabindex="-1"
+            variants="[object Object]"
+          >
+            <header
+              class="chakra-modal__header css-u0i2nk"
+              id="chakra-modal--header-:r0:"
+            >
+              Create Task
+            </header>
+            <button
+              aria-label="Close"
+              class="chakra-modal__close-btn css-1ik4h6n"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-icon css-onkibi"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M.439,21.44a1.5,1.5,0,0,0,2.122,2.121L11.823,14.3a.25.25,0,0,1,.354,0l9.262,9.263a1.5,1.5,0,1,0,2.122-2.121L14.3,12.177a.25.25,0,0,1,0-.354l9.263-9.262A1.5,1.5,0,0,0,21.439.44L12.177,9.7a.25.25,0,0,1-.354,0L2.561.44A1.5,1.5,0,0,0,.439,2.561L9.7,11.823a.25.25,0,0,1,0,.354Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <form>
+              <div
+                class="chakra-stack css-ahthbn"
+              >
+                <div
+                  class="chakra-form-control css-1kxonj9"
+                  role="group"
+                >
+                  <label
+                    class="chakra-form__label css-g6pte"
+                    for="field-:r3:"
+                    id="field-:r3:-label"
+                  >
+                    Task Name
+                  </label>
+                  <input
+                    class="chakra-input css-1v0zw5w"
+                    id="field-:r3:"
+                    name="name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div
+                  class="chakra-form-control css-1kxonj9"
+                  role="group"
+                >
+                  <label
+                    class="chakra-form__label css-g6pte"
+                    for="field-:r4:"
+                    id="field-:r4:-label"
+                  >
+                    Description
+                  </label>
+                  <input
+                    class="chakra-input css-1v0zw5w"
+                    id="field-:r4:"
+                    name="description"
+                    placeholder="Here is description"
+                  />
+                </div>
+                <div
+                  class="chakra-form-control css-1kxonj9"
+                  role="group"
+                >
+                  <label
+                    class="chakra-form__label css-g6pte"
+                    for="field-:r5:"
+                    id="field-:r5:-label"
+                  >
+                    Priority
+                  </label>
+                  <div
+                    class="chakra-select__wrapper css-12edts4"
+                  >
+                    <select
+                      class="chakra-select css-n2lck0"
+                      id="field-:r5:"
+                      name="priority"
+                    >
+                      <option
+                        value=""
+                      >
+                        Select priority
+                      </option>
+                      <option
+                        value="0"
+                      >
+                        Low
+                      </option>
+                      <option
+                        value="1"
+                      >
+                        High
+                      </option>
+                    </select>
+                    <div
+                      class="chakra-select__icon-wrapper css-k3889b"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="chakra-select__icon"
+                        focusable="false"
+                        role="presentation"
+                        style="width: 1em; height: 1em; color: currentColor;"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="chakra-form-control css-1kxonj9"
+                  role="group"
+                >
+                  <label
+                    class="chakra-form__label css-g6pte"
+                    for="field-:r6:"
+                    id="field-:r6:-label"
+                  >
+                    Image
+                  </label>
+                  <input
+                    class="chakra-input css-1v0zw5w"
+                    id="field-:r6:"
+                    name="image"
+                    placeholder="http://"
+                  />
+                </div>
+                <button
+                  class="chakra-button css-ilx49x"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        data-aria-hidden="true"
+        data-focus-guard="true"
+        style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+        tabindex="0"
+      />
+    </div>
+    <div
+      class="chakra-portal"
+    >
+      <div
+        aria-label="Notifications-top"
+        aria-live="polite"
+        id="chakra-toast-manager-top"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
+      />
+      <div
+        aria-label="Notifications-top-left"
+        aria-live="polite"
+        id="chakra-toast-manager-top-left"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <div
+        aria-label="Notifications-top-right"
+        aria-live="polite"
+        id="chakra-toast-manager-top-right"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <div
+        aria-label="Notifications-bottom-left"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-left"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <div
+        aria-label="Notifications-bottom"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
+      />
+      <div
+        aria-label="Notifications-bottom-right"
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-right"
+        role="region"
+        style="position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"
+      />
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+    data-aria-hidden="true"
+  >
+    <span
+      hidden=""
+      id="__chakra_env"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

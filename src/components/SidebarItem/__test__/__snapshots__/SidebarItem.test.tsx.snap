@@ -8,7 +8,7 @@ exports[`SidebarItem component matchs snapshoot 1`] = `
   >
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/"
       >
         <svg
@@ -99,7 +99,7 @@ exports[`SidebarItem component matchs snapshoot 1`] = `
   </body>,
   "container": <div>
     <a
-      class="chakra-link css-1j5kdpb"
+      class="chakra-link css-1aygjq2"
       href="/"
     >
       <svg
@@ -203,7 +203,7 @@ exports[`SidebarItem component matchs snapshoot 2`] = `
   >
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/"
       >
         <svg
@@ -293,7 +293,7 @@ exports[`SidebarItem component matchs snapshoot 2`] = `
     </div>
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/pro01"
       >
         <svg
@@ -384,7 +384,7 @@ exports[`SidebarItem component matchs snapshoot 2`] = `
   </body>,
   "container": <div>
     <a
-      class="chakra-link css-1j5kdpb"
+      class="chakra-link css-1aygjq2"
       href="/pro01"
     >
       <svg
@@ -488,7 +488,7 @@ exports[`SidebarItem component matchs snapshoot 3`] = `
   >
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/"
       >
         <svg
@@ -578,7 +578,7 @@ exports[`SidebarItem component matchs snapshoot 3`] = `
     </div>
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/pro01"
       >
         <svg
@@ -668,7 +668,7 @@ exports[`SidebarItem component matchs snapshoot 3`] = `
     </div>
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/pro02"
       >
         <svg
@@ -759,7 +759,7 @@ exports[`SidebarItem component matchs snapshoot 3`] = `
   </body>,
   "container": <div>
     <a
-      class="chakra-link css-1j5kdpb"
+      class="chakra-link css-1aygjq2"
       href="/pro02"
     >
       <svg
@@ -863,7 +863,7 @@ exports[`SidebarItem component matchs snapshoot 4`] = `
   >
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/"
       >
         <svg
@@ -953,7 +953,7 @@ exports[`SidebarItem component matchs snapshoot 4`] = `
     </div>
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/pro01"
       >
         <svg
@@ -1043,7 +1043,7 @@ exports[`SidebarItem component matchs snapshoot 4`] = `
     </div>
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/pro02"
       >
         <svg
@@ -1133,7 +1133,7 @@ exports[`SidebarItem component matchs snapshoot 4`] = `
     </div>
     <div>
       <a
-        class="chakra-link css-1j5kdpb"
+        class="chakra-link css-1aygjq2"
         href="/pro03"
       >
         <svg
@@ -1224,7 +1224,7 @@ exports[`SidebarItem component matchs snapshoot 4`] = `
   </body>,
   "container": <div>
     <a
-      class="chakra-link css-1j5kdpb"
+      class="chakra-link css-1aygjq2"
       href="/pro03"
     >
       <svg

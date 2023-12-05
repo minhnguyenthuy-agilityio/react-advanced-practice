@@ -4,3 +4,7 @@ export * from "./SearchBox";
 export * from "./Logo";
 export * from "./SidebarItem";
 export * from "./TaskCard";
+export * from "./TaskDataEntryForm";
+export * from "./MenuFilter";
+export * from "./TaskDetail";
+export * from "./TaskList";

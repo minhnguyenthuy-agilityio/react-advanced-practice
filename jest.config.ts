@@ -7,12 +7,12 @@ import type { Config } from "jest";
 
 const config: Config = {
   preset: "ts-jest",
-  testEnvironment: "jsdom",
+  testEnvironment: "jest-environment-jsdom",
+  setupFilesAfterEnv: ["@testing-library/jest-dom"],
   roots: ["<rootDir>/src"],
   transform: {
     "^.+\\.ts?$": "ts-jest",
     "^.+\\.tsx?$": "ts-jest",
-    "^.+\\.svg$": "jest-svg-transformer",
   },
   moduleDirectories: ["node_modules", "src"],
   moduleFileExtensions: ["js", "jsx", "json", "ts", "tsx"],
@@ -58,7 +58,6 @@ const config: Config = {
   },
   verbose: true,
   collectCoverage: true,
-  setupFilesAfterEnv: ["@testing-library/jest-dom"],
 };
 
 export default config;

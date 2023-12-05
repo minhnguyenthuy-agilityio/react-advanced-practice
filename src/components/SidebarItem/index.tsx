@@ -10,12 +10,14 @@ interface SidebarItemPropType {
   iconColor: string;
   title: string;
   projectId: string;
+  isActive?: boolean;
 }
 
 export const SidebarItem = ({
   iconColor,
   title,
   projectId,
+  isActive,
 }: SidebarItemPropType) => {
   return (
     <ChakraLink
@@ -23,10 +25,11 @@ export const SidebarItem = ({
       to={`${ROUTES.TASKS_PROJECT_DEFAULT}${projectId}`}
       display="flex"
       w="full"
-      pl="3.5"
-      py="12.5"
-      borderRadius="6"
+      pl="14px"
+      py="12px"
+      borderRadius="6px"
       alignItems="center"
+      background={isActive ? "secondary.200" : "transparent"}
       _hover={{
         textDecoration: "none",
         bgColor: "secondary.200",

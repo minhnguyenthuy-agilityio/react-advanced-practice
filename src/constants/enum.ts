@@ -1,5 +1,4 @@
-export enum PriorityLevel {
+export enum Priority {
   Low,
   High,
-  Completed = "completed",
 }

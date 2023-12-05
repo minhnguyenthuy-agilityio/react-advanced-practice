@@ -5,4 +5,7 @@ export { ReactComponent as TasksIcon } from "./taskSquare.svg";
 export { ReactComponent as DotIcon } from "./ellipse.svg";
 export { ReactComponent as MessageIcon } from "./comment.svg";
 export { ReactComponent as FolderIcon } from "./folder.svg";
-export * from "./threeDots";
+export { ReactComponent as DotsIcon } from "./dots.svg";
+export { ReactComponent as AddIcon } from "./plus.svg";
+export { ReactComponent as FilterIcon } from "./filter.svg";
+export { ReactComponent as ArrowDownFilterIcon } from "./arrowDownFilter.svg";

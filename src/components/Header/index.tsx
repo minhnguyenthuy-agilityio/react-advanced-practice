@@ -23,7 +23,13 @@ export const Header = () => {
           <Text color="primary.700">{USER.name}</Text>
           <Text size="sm">{USER.country}</Text>
         </Box>
-        <Avatar mr="10px" w="38px" h="38px" src={USER.avatar} />
+        <Avatar
+          name="avatar-user"
+          mr="10px"
+          w="38px"
+          h="38px"
+          src={USER.avatar}
+        />
         <Icon as={ArrowDownIcon} />
       </Flex>
     </Flex>

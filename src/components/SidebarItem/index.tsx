@@ -36,7 +36,13 @@ export const SidebarItem = ({
       }}
     >
       <Icon mr="16px" as={DotIcon} color={iconColor} />
-      <Text textOverflow="ellipsis" whiteSpace="nowrap" overflowX="hidden">
+      <Text
+        textOverflow="ellipsis"
+        whiteSpace="nowrap"
+        color={isActive ? "primary.700" : "primary.500"}
+        fontWeight={isActive ? "semibold" : "medium"}
+        overflowX="hidden"
+      >
         {title}
       </Text>
     </ChakraLink>

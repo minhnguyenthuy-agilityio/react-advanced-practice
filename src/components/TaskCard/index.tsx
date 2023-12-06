@@ -79,7 +79,7 @@ export const TaskCard = memo(
         transition="0.5s"
         p="20px"
         bg="primary.100"
-        _hover={{ borderColor: "primary.500" }}
+        _hover={{ borderColor: "primary.500", cursor: "pointer" }}
       >
         <Flex justifyContent="space-between">
           <Badge
@@ -92,8 +92,12 @@ export const TaskCard = memo(
             <MenuButton
               as={Button}
               rightIcon={<Icon as={DotsIcon} />}
-              bg="none"
-              _hover={{ bg: "none" }}
+              colorScheme="none"
+              color="primary.700"
+              aria-aria-labelledby="status-button"
+              _hover={{
+                color: "primary.600",
+              }}
             />
             <MenuList>
               {TASK_STATUS?.map(({ status, label }, index) => (
@@ -175,7 +179,7 @@ export const TaskCard = memo(
           <Flex mt="8px" justifyContent="space-between" alignItems="center">
             <AvatarGroup spacing="-4px" size="xs" max={5}>
               {assignees?.map(({ avatar, name }, index) => (
-                <Avatar key={`${name}-${index}`} src={avatar} />
+                <Avatar name="assignee" key={`${name}-${index}`} src={avatar} />
               ))}
             </AvatarGroup>
             <Flex gap={2}>

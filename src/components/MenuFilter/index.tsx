@@ -29,10 +29,11 @@ export const MenuFilter = memo(
           w="122px"
           maxH="40px"
           fontWeight="medium"
+          alignItems="flex-start"
         >
           {buttonName}
         </MenuButton>
-        <MenuList>
+        <MenuList zIndex="2">
           {options?.map((option, index) => (
             <MenuItem
               data-testid="menu-item"

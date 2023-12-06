@@ -50,7 +50,7 @@ export const TaskList = ({ status, tasks }: TaskListProps) => {
     >
       <TaskDataEntryForm isOpenForm={isOpenForm} handleClose={onCloseForm} />
 
-      <Box bg="primary.200" position="sticky" top="0px" mb="20px">
+      <Box bg="primary.200" position="sticky" top="0px" mb="20px" zIndex="1">
         <Flex
           top="0px"
           py="15px"

@@ -93,7 +93,7 @@ export const TaskDetail = ({
           <Flex my="20px" justifyContent="space-between" alignItems="center">
             <AvatarGroup spacing="-4px" size="xs" max={5}>
               {assignees?.map(({ avatar, name }, index) => (
-                <Avatar key={`${name}-${index}`} src={avatar} />
+                <Avatar name="assignee" key={`${name}-${index}`} src={avatar} />
               ))}
             </AvatarGroup>
             <Flex gap={2}>
